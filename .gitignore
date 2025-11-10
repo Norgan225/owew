@@ -1,0 +1,37 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Favicons générés automatiquement (garder seulement les essentiels)
+/public/favicons/favicon-*.png
+/public/favicons/apple-touch-icon-*.png
+/public/favicons/android-chrome-*.png
+/public/favicons/mstile-*.png
+/public/favicons/og-image.jpg
+
+# Garder ces fichiers importants (les commiter)
+/public/favicons/favicon.ico
+/public/favicons/apple-touch-icon.png
+/public/favicons/site.webmanifest
+/public/favicons/safari-pinned-tab.svg

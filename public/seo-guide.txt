@@ -1,0 +1,71 @@
+=== GUIDE GOOGLE SEARCH CONSOLE - OWEW ===
+
+📋 INFORMATIONS À RENTRER DANS GOOGLE SEARCH CONSOLE
+
+1. META TITLE (Titre principal)
+   - Champ : Admin → Paramètres → SEO → Meta Title (FR/EN)
+   - Longueur idéale : 50-60 caractères
+   - Exemple : "OWEW - Aide aux Veuves et Orphelins | ONG Humanitaire"
+
+2. META DESCRIPTION (Description)
+   - Champ : Admin → Paramètres → SEO → Meta Description (FR/EN)
+   - Longueur idéale : 150-160 caractères
+   - Exemple : "OWEW est une ONG dédiée à l'aide aux veuves, orphelins et personnes vulnérables. Découvrez nos projets humanitaires et faites un don."
+
+3. MOTS-CLÉS (Keywords)
+   - Champ : Admin → Paramètres → SEO → Mots-clés (FR/EN)
+   - Format : mots-clés séparés par des virgules
+   - Exemple FR : "ONG, humanitaire, veuves, orphelins, aide sociale, Côte d'Ivoire"
+   - Exemple EN : "NGO, humanitarian, widows, orphans, social aid, Ivory Coast"
+
+4. URL CANONIQUE (Canonical URL)
+   - Champ : Admin → Paramètres → SEO → URL Canonique
+   - Exemple : "https://www.owew.org" ou "https://owew-ngo.org"
+
+5. OPEN GRAPH TITLE
+   - Champ : Admin → Paramètres → SEO → Titre Open Graph (FR/EN)
+   - Pour Facebook/LinkedIn : "OWEW - Ensemble pour un Avenir Meilleur"
+
+6. OPEN GRAPH DESCRIPTION
+   - Champ : Admin → Paramètres → SEO → Description Open Graph (FR/EN)
+   - Pour réseaux sociaux : "Rejoignez notre mission humanitaire pour aider les plus vulnérables."
+
+7. OPEN GRAPH IMAGE
+   - Champ : Admin → Paramètres → SEO → Image Open Graph
+   - Dimensions recommandées : 1200x630px
+   - Format : JPG ou PNG, max 2MB
+
+8. GOOGLE ANALYTICS ID
+   - Champ : Admin → Paramètres → SEO → Google Analytics ID
+   - Format GA4 : "G-XXXXXXXXXX"
+   - Format Universal : "UA-XXXXXXXXX-X"
+
+9. GOOGLE TAG MANAGER ID
+   - Champ : Admin → Paramètres → SEO → Google Tag Manager ID
+   - Format : "GTM-XXXXXXX"
+
+10. META ROBOTS
+    - Champ : Admin → Paramètres → SEO → Meta Robots
+    - Valeur recommandée : "index,follow"
+
+11. TWITTER CARD TYPE
+    - Champ : Admin → Paramètres → SEO → Type de Twitter Card
+    - Valeur recommandée : "Summary Large Image"
+
+=== ÉTAPES À SUIVRE ===
+
+1. Allez dans Admin → Paramètres → Section SEO
+2. Remplissez tous les champs ci-dessus
+3. Utilisez les compteurs de caractères pour respecter les limites
+4. Sauvegardez les paramètres
+5. Dans Google Search Console, utilisez "Aperçu des résultats de recherche"
+6. Vérifiez que vos pages s'affichent correctement
+
+=== CONSEILS SEO ===
+- Utilisez des mots-clés pertinents
+- Créez du contenu unique et de qualité
+- Optimisez vos images (noms descriptifs)
+- Soumettez votre sitemap régulièrement
+- Surveillez les erreurs d'indexation
+
+Guide généré pour OWEW - Optimisation SEO

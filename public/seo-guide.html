@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Google Search Console - OWEW</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4B0082;
+            border-bottom: 3px solid #4B0082;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #6A0DAD;
+            margin-top: 30px;
+        }
+        .field-group {
+            background: #f8f9ff;
+            border-left: 4px solid #4B0082;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .field-name {
+            font-weight: bold;
+            color: #4B0082;
+            font-size: 1.1em;
+        }
+        .field-desc {
+            color: #666;
+            margin: 10px 0;
+        }
+        .field-example {
+            background: #e8f4fd;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin: 10px 0;
+        }
+        .important {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+        .step {
+            background: #e8f5e8;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .step-number {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 25px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Guide Google Search Console - Configuration OWEW</h1>
+
+        <div class="important">
+            <strong>⚠️ Important :</strong> Ce guide vous explique comment utiliser les champs SEO que nous avons ajoutés dans les paramètres admin pour optimiser votre présence dans Google Search Console.
+        </div>
+
+        <h2>🎯 Champs SEO principaux à configurer</h2>
+
+        <div class="field-group">
+            <div class="field-name">1. Meta Title (Titre)</div>
+            <div class="field-desc">
+                Le titre qui apparaît dans les résultats de recherche Google. Longueur idéale : 50-60 caractères.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Meta Title (FR/EN)</strong><br>
+                Exemple : "OWEW - Aide aux Veuves et Orphelins | ONG Humanitaire"
+            </div>
+        </div>
+
+        <div class="field-group">
+            <div class="field-name">2. Meta Description (Description)</div>
+            <div class="field-desc">
+                La description qui apparaît sous le titre dans les résultats Google. Longueur idéale : 150-160 caractères.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Meta Description (FR/EN)</strong><br>
+                Exemple : "OWEW est une ONG dédiée à l'aide aux veuves, orphelins et personnes vulnérables. Découvrez nos projets humanitaires et faites un don."
+            </div>
+        </div>
+
+        <div class="field-group">
+            <div class="field-name">3. Mots-clés (Keywords)</div>
+            <div class="field-desc">
+                Liste des mots-clés principaux séparés par des virgules. Utilisés pour le référencement.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Mots-clés (FR/EN)</strong><br>
+                Exemple FR : "ONG, humanitaire, veuves, orphelins, aide sociale, Côte d'Ivoire"<br>
+                Exemple EN : "NGO, humanitarian, widows, orphans, social aid, Ivory Coast"
+            </div>
+        </div>
+
+        <div class="field-group">
+            <div class="field-name">4. URL Canonique (Canonical URL)</div>
+            <div class="field-desc">
+                L'URL principale de votre site. Évite les problèmes de contenu dupliqué.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → URL Canonique</strong><br>
+                Exemple : "https://www.owew.org" ou "https://owew-ngo.org"
+            </div>
+        </div>
+
+        <h2>📱 Réseaux Sociaux (Open Graph)</h2>
+
+        <div class="field-group">
+            <div class="field-name">5. Open Graph Title</div>
+            <div class="field-desc">
+                Titre affiché lors du partage sur Facebook, LinkedIn, etc.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Titre Open Graph (FR/EN)</strong><br>
+                Exemple : "OWEW - Ensemble pour un Avenir Meilleur"
+            </div>
+        </div>
+
+        <div class="field-group">
+            <div class="field-name">6. Open Graph Description</div>
+            <div class="field-desc">
+                Description affichée lors du partage sur les réseaux sociaux.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Description Open Graph (FR/EN)</strong><br>
+                Exemple : "Rejoignez notre mission humanitaire pour aider les plus vulnérables."
+            </div>
+        </div>
+
+        <div class="field-group">
+            <div class="field-name">7. Open Graph Image</div>
+            <div class="field-desc">
+                Image affichée lors du partage (dimensions recommandées : 1200x630px).
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Image Open Graph</strong><br>
+                Format : JPG, PNG (max 2MB) - Dimensions : 1200x630px
+            </div>
+        </div>
+
+        <h2>🔧 Outils Analytics</h2>
+
+        <div class="field-group">
+            <div class="field-name">8. Google Analytics ID</div>
+            <div class="field-desc">
+                Votre ID Google Analytics pour suivre les visiteurs.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Google Analytics ID</strong><br>
+                Format : "G-XXXXXXXXXX" (GA4) ou "UA-XXXXXXXXX-X" (Universal Analytics)
+            </div>
+        </div>
+
+        <div class="field-group">
+            <div class="field-name">9. Google Tag Manager ID</div>
+            <div class="field-desc">
+                ID Google Tag Manager pour gérer vos balises de suivi.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Google Tag Manager ID</strong><br>
+                Format : "GTM-XXXXXXX"
+            </div>
+        </div>
+
+        <h2>📋 Directives pour les moteurs de recherche</h2>
+
+        <div class="field-group">
+            <div class="field-name">10. Meta Robots</div>
+            <div class="field-desc">
+                Indique aux moteurs de recherche comment indexer votre site.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Meta Robots</strong><br>
+                Recommandé : "index,follow" (indexer et suivre les liens)
+            </div>
+        </div>
+
+        <div class="field-group">
+            <div class="field-name">11. Twitter Card Type</div>
+            <div class="field-desc">
+                Type de carte Twitter pour le partage sur Twitter.
+            </div>
+            <div class="field-example">
+                <strong>Admin → Paramètres → SEO → Type de Twitter Card</strong><br>
+                Recommandé : "Summary Large Image"
+            </div>
+        </div>
+
+        <h2>🚀 Étapes pour configurer Google Search Console</h2>
+
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Accédez aux paramètres admin</strong><br>
+            Allez dans Admin → Paramètres → Section SEO
+        </div>
+
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Remplissez les Meta Title et Description</strong><br>
+            Utilisez les compteurs de caractères pour respecter les limites Google
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Ajoutez vos mots-clés principaux</strong><br>
+            5-10 mots-clés maximum, séparés par des virgules
+        </div>
+
+        <div class="step">
+            <span class="step-number">4</span>
+            <strong>Configurez l'URL canonique</strong><br>
+            Utilisez l'URL principale de votre domaine (avec ou sans www)
+        </div>
+
+        <div class="step">
+            <span class="step-number">5</span>
+            <strong>Ajoutez l'image Open Graph</strong><br>
+            Image représentative de 1200x630px pour les partages sociaux
+        </div>
+
+        <div class="step">
+            <span class="step-number">6</span>
+            <strong>Intégrez Google Analytics</strong><br>
+            Copiez votre ID GA4 dans le champ approprié
+        </div>
+
+        <div class="step">
+            <span class="step-number">7</span>
+            <strong>Sauvegardez les paramètres</strong><br>
+            Cliquez sur "Sauvegarder" en bas de la page
+        </div>
+
+        <div class="important">
+            <strong>💡 Conseils pour de meilleurs résultats :</strong>
+            <ul>
+                <li>Utilisez des mots-clés pertinents dans vos titres et descriptions</li>
+                <li>Créez des contenus uniques et de qualité</li>
+                <li>Optimisez vos images avec des noms descriptifs</li>
+                <li>Soumettez régulièrement votre sitemap à Google</li>
+                <li>Surveillez les erreurs d'indexation dans Search Console</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <span class="step-number">8</span>
+            <strong>Vérifiez dans Google Search Console</strong><br>
+            Utilisez l'outil "Aperçu des résultats de recherche" pour voir comment vos pages apparaîtront
+        </div>
+
+        <p style="text-align: center; margin-top: 40px; color: #666;">
+            <em>Guide créé pour optimiser le référencement OWEW sur Google</em>
+        </p>
+    </div>
+</body>
+</html>
